@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "tweepy-userlookup-example"
+version = "0.1.0"
+description = ""
+authors = ["woynok <woynok@gmail.com>"]
+readme = "README.md"
+packages = [{include = "tweepy_userlookup_example"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+tweepy = "^4.12.1"
+pandas = "^1.5.2"
+PyYAML = "^6.0"
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
